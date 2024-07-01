@@ -10,7 +10,6 @@ import java.io.IOException;
 
 public class CalcApplication extends Application {
 
-
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(CalcApplication.class.getResource("calc_view.fxml"));

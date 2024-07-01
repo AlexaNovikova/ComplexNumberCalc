@@ -5,6 +5,9 @@ import java.util.Objects;
 public class SignIntNumber extends SignIntNumberAbstract implements BasicArithmeticOperations<SignIntNumber> {
 
     public SignIntNumber(int value, Sign sign) {
+        if(value<0){
+            throw new IllegalArgumentException("Значение value должно быть положительный числом");
+        }
         this.value = value;
         this.sign = sign;
     }
