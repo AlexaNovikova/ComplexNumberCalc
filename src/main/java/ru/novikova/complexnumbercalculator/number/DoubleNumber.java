@@ -14,6 +14,18 @@ public class DoubleNumber extends DoubleNumberAbstract implements BasicArithmeti
         this(value, Sign.PLUS);
     }
 
+    public DoubleNumber(String value) {
+        String number;
+        if (Double.parseDouble(value) < 0) {
+            number = value.substring(1);
+            this.value = Double.parseDouble(number);
+            this.sign = Sign.MINUS;
+        } else {
+            this.value = Double.parseDouble(value);
+            this.sign = Sign.PLUS;
+        }
+    }
+
     @Override
     public DoubleNumber add(DoubleNumber number) {
         if (this.sign.equals(number.sign)) {
@@ -66,10 +78,7 @@ public class DoubleNumber extends DoubleNumberAbstract implements BasicArithmeti
 
     @Override
     public String toString() {
-        return "DoubleNumber{" +
-                "value=" + value +
-                ", sign=" + sign +
-                '}';
+        return (getSign().getSignSymbol().equals("+") ? "" : "-") + getDoubleValue();
     }
 
     @Override

@@ -66,4 +66,5 @@ public class ComplexNumber extends ComplexNumberAbstract implements BasicArithme
                 ", imaginary=" + imaginary +
                 '}';
     }
+
 }

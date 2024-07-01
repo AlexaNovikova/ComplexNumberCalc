@@ -20,7 +20,6 @@ import java.util.ResourceBundle;
 
 public class CalculatorController implements Initializable {
 
-    private CalcService calcService;
     private Stage window;
     @FXML
     public TextField realFirstNumberTF;
@@ -41,11 +40,31 @@ public class CalculatorController implements Initializable {
 
     public void calculate(ActionEvent actionEvent) {
         if (checkTF()) {
-            if(Double.parseDouble(realFirstNumberTF.getText())<0.0){
-
-            }
             ComplexNumber first = new ComplexNumber(new DoubleNumber
-                    (Double.parseDouble(realFirstNumberTF.getText())))
+                    (realFirstNumberTF.getText()), new DoubleNumber(imaginaryFirstNumberTF.getText()));
+            ComplexNumber second = new ComplexNumber(new DoubleNumber
+                    (realSecondNumberTF.getText()), new DoubleNumber(imaginarySecondNumberTF.getText()));
+            ComplexNumber result;
+            switch (operationCB.getSelectionModel().getSelectedIndex()) {
+                case 0: {
+                    result = first.add(second);
+                    break;
+                }
+                case 1:{
+                    result = first.sub(second);
+                    break;
+                }
+                case 2:{
+                    result = first.multiply(second);
+                    break;
+                }
+                default:{
+                    result = first.add(second);
+                    break;
+                }
+            }
+            realResTF.setText(result.getReal().toString());
+            imaginaryResTF.setText(result.getImaginary().toString());
         }
     }
 
@@ -83,6 +102,5 @@ public class CalculatorController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         operationCB.getItems().addAll(operationList);
         operationCB.getSelectionModel().select(0);
-        calcService = new CalcService();
     }
 }

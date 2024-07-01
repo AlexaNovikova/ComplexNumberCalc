@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21cf6c34-18e7-4834-a6f0-2e70111260dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/CalcApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/CalcService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/CalculatorController.java" afterDir="false" />
+    <list default="true" id="21cf6c34-18e7-4834-a6f0-2e70111260dd" name="Changes" comment="View">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/CalculatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/ComplexNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/ComplexNumberAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/ComplexNumberAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/DoubleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/DoubleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/Sign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/Sign.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +48,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Program Files/Java/javafx-sdk-22.0.1/lib",
+    "last_opened_file_path": "C:/Users/alexa/IdeaProjects/ComplexNumberCalculator/src/main/java/ru/novikova/complexnumbercalculator",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alexa\IdeaProjects\ComplexNumberCalculator\src\main\java\ru\novikova\complexnumbercalculator" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.CalcApplication">
     <configuration name="CalcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.novikova.complexnumbercalculator.CalcApplication" />
@@ -109,6 +105,28 @@
       <option name="presentableId" value="Default" />
       <updated>1719821406515</updated>
     </task>
+    <task id="LOCAL-00001" summary="Написана иерархия классов чисел, сцена и начат контроллер">
+      <option name="closed" value="true" />
+      <created>1719825935111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719825935111</updated>
+    </task>
+    <task id="LOCAL-00002" summary="View">
+      <option name="closed" value="true" />
+      <created>1719825996014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719825996014</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Написана иерархия классов чисел, сцена и начат контроллер" />
+    <MESSAGE value="View" />
+    <option name="LAST_COMMIT_MESSAGE" value="View" />
   </component>
 </project>
