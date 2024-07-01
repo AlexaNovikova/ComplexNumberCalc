@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21cf6c34-18e7-4834-a6f0-2e70111260dd" name="Changes" comment="View">
+    <list default="true" id="21cf6c34-18e7-4834-a6f0-2e70111260dd" name="Changes" comment="Дописан контроллер">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/CalculatorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/ComplexNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/ComplexNumberAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/ComplexNumberAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/DoubleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/DoubleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/Sign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/novikova/complexnumbercalculator/number/Sign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -121,12 +120,29 @@
       <option name="project" value="LOCAL" />
       <updated>1719825996014</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Дописан контроллер">
+      <option name="closed" value="true" />
+      <created>1719827104153</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719827104153</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Дописан контроллер">
+      <option name="closed" value="true" />
+      <created>1719827480583</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719827480583</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Написана иерархия классов чисел, сцена и начат контроллер" />
     <MESSAGE value="View" />
-    <option name="LAST_COMMIT_MESSAGE" value="View" />
+    <MESSAGE value="Дописан контроллер" />
+    <option name="LAST_COMMIT_MESSAGE" value="Дописан контроллер" />
   </component>
 </project>
